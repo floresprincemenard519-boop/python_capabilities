@@ -4,16 +4,16 @@ title_string = ""
 # print(string.title())
 
 # how title() method works with title() method
-for char in string:
-    if string[string.index(char)-1] == " " or string.index(char) == 0:
+for index, char in enumerate(string):
+    if index == 0 or string[index-1] == " ":
         title_string += char.upper()
-    elif string[string.index(char)-1].islower() == True:
-        title_string += char.upper()
-
+    elif string[index-1] == char.isupper():
+        title_string += char.lower()
+    else:
+        title_string += char
 
 print(title_string)
-
 # check each letter
-# check if that letter is the beginning of the word
+# check if that letter is the beginning of the word 
 # change to cappital if it is the beginning of the word
 # print all the letters together
