@@ -5,7 +5,10 @@ print(string.title())
 
 # how title() method works with title() method
 for char in string:
-    pass
+    if string.index(char)-1 == ' ':
+        print(char.upper(), end="")
+    else:
+        print(char, end="")
 
 # check each letter
 # check if that letter is the beginning of the word
