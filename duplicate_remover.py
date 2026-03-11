@@ -1,3 +1,3 @@
 # get 10 numbers 
-# maybe put it in a list
-# print the list without dup
+# store numbers in a list 
+# if a number is in the list remove it and just retain the non duplicated ones
