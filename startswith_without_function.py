@@ -4,4 +4,7 @@
 string = "This string should return True with startswith()."
 beginning = "This"
 
-print(string.startswith("This"))
+if beginning in string[:len(beginning)]:
+    print(True)
+else:
+    print(False)
