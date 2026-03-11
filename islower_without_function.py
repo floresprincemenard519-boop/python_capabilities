@@ -9,5 +9,5 @@ isupper = True
 for char in string:
     if char.isupper():
         isupper = False
-        
+
 print(isupper)
