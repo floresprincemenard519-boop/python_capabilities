@@ -1,2 +1,2 @@
-# get the fullname
-# print in reverse casing
+fullname = input("Please input your fullname in improper casing: ")
+print(fullname.swapcase())
