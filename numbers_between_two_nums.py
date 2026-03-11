@@ -1,5 +1,3 @@
-# get two nums
-# get the numbers in the middle using range or maybe i can use a while loop
 first_number = int(input("Please input a number: "))
 second_number = int(input("please input another number: "))
 
