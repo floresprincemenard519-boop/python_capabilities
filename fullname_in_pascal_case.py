@@ -1,4 +1,4 @@
-fullname = input("Please input your fullname: ")
+fullname = input("Please input your fullname in imporper casing: ")
 fullname = fullname.title()
 
 for char in fullname:
