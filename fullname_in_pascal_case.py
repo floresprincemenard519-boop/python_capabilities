@@ -8,5 +8,7 @@ fullname = input("Please input your fullname: ")
 for index, char in enumerate(fullname):
     if index == 0 or fullname[index - 1] == ' ':
         print(char.upper(), end="")
+    elif char == ' ':
+        print('', end='')
     else:
         print(char, end="")
