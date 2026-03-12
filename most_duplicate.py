@@ -4,7 +4,7 @@
 # print the number not the count
 list = {}
 highest_number = None
-highest_count = 0
+highest_count = -1
 
 while True:
     try:
